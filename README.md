@@ -4,8 +4,9 @@
  
 # Cloud Comparisons
 (https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services)
-(https://community.spiceworks.com/cloud/articles/2496-aws-vs-azure-in-2017-iaas- similarities-and-differences)
+(https://community.spiceworks.com/cloud/articles/2496-aws-vs-azure-in-2017-iaas-similarities-and-differences)
 (http://www.tomsitpro.com/articles/azure-vs-aws-cloud-comparison,2-870-2.html)
+
 A good comparison Chart 
 (https://endjincdn.blob.core.windows.net/assets/endjin-cloud-platform-comparison.pdf)
 (https://blogs.endjin.com/2016/11/aws-vs-azure-vs-google-cloud-platform-networking/)
@@ -48,7 +49,7 @@ https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-lin
 copy 
 
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-multipledependancy
-https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-define- dependencies
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-define-dependencies
 best practices http://utkarshcloudnet.blogspot.in/2016/05/Azure-Rerource-Manager-Template-ARM-Azure-best-practices-tips.html
 
 deployment from portal
@@ -91,7 +92,7 @@ External
 https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-load-balancer
 
 doc
-https://opbuildstorageprod.blob.core.windows.net/output-pdf-files/en-us/Azure.azure- documents/live/load-balancer.pdf
+https://opbuildstorageprod.blob.core.windows.net/output-pdf-files/en-us/Azure.azure-documents/live/load-balancer.pdf
 internal 
 https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-get-started-ilb-arm-cli
 # Case Study
@@ -99,11 +100,12 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-cli-complet
 
 # Container Service
 https://docs.microsoft.com/en-us/azure/container-service/container-service-kubernetes-walkthrough
-https://docs.docker.com/get-started/part2/#pull-and-run-the-image-from-the- remote-repository
+https://docs.docker.com/get-started/part2/#pull-and-run-the-image-from-the-remote-repository
 https://prakhar.me/docker-curriculum/ https://www.codeschool.com/blog/2014/10/21/containing-world-docker/ https://www.katacoda.com/courses/docker/create-nginx-static-web-server
 https://opsnotice.xyz/build-swarm-cluster/
 https://blogs.msdn.microsoft.com/uk_faculty_connection/2016/09/23/getting-started-with-docker-and-container-services/
 https://docs.microsoft.com/en-us/azure/container-service/container-service-
+
 kubernetes-load-balancing 
 https://www.tutorialspoint.com/kubernetes/kubernetes_tutorial.pdf
 
@@ -140,7 +142,7 @@ https://azure.microsoft.com/en-in/documentation/articles/sql-database-get-starte
 https://docs.microsoft.com/en-us/azure/cosmos-db/multi-region-writers
 # DocumentDb
 https://russellyoung.net/2016/06/18/managing-documentdb-with-powershell/
-https://docs.microsoft.com/en-us/azure/documentdb/documentdb-manage-account-with- powershell
+https://docs.microsoft.com/en-us/azure/documentdb/documentdb-manage-account-with-powershell
 https://docs.microsoft.com/en-in/azure/documentdb/documentdb-get-started
 # GraphDb
 https://blogs.msdn.microsoft.com/tsmatsuz/2017/07/04/azure-cosmos-db-gremlin-graph-
