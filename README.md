@@ -43,8 +43,7 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force -Scope CurrentUser
      
 # Template
 Create
-https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-create-first-template
-deploy
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-create-first-templatedeploy
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-deploy 
 
 #### export 
