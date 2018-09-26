@@ -25,9 +25,13 @@ https://github.com/Microsoft/azure-docs/blob/master/articles/cloud-shell/persist
  
  https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
 in the PATH
+
 get-module
+
 windows 7 - powershell 5
+
 windows 10 - powershell latest
+
 https://github.com/PowerShell/PowerShell https://www.howtogeek.com/267858/how-to-install-microsoft-powershell-on-linux-or-os-x/ 
 https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-4.0.0
 https://github.com/PowerShell/PowerShellGet/issues/35
@@ -46,11 +50,14 @@ https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-q
 #### export 
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-export-template-clilinked
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-linked-templates
-copy 
 
+copy 
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-multipledependancy
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-define-dependencies
-best practices http://utkarshcloudnet.blogspot.in/2016/05/Azure-Rerource-Manager-Template-ARM-Azure-best-practices-tips.html
+
+best practices 
+
+http://utkarshcloudnet.blogspot.in/2016/05/Azure-Rerource-Manager-Template-ARM-Azure-best-practices-tips.html
 
 deployment from portal
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy-portal
@@ -162,7 +169,10 @@ https://docs.microsoft.com/en-us/azure/batch/batch-dotnet-get-started
 # Analytical data
 #3 Azure Data Lake Store
 https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-get-started-cli-2.0
-Data Lake vs Blob https://www.codit.eu/blog?tag=big%20data
+
+Data Lake vs Blob 
+
+https://www.codit.eu/blog?tag=big%20data
 # pricing
 https://azure.microsoft.com/en-in/pricing/details/data-lake-store/ 
 https://azure.microsoft.com/en-us/resources/videos/data-lake-billing-model/
@@ -172,14 +182,17 @@ comparison
 https://docs.microsoft.com/en-us/azure/data-lake-analytics/data-lake-analytics-get-started-portal
 
 USQL 
+
 https://docs.microsoft.com/en-us/azure/data-lake-analytics/data-lake-analytics-u-sql-get-started
 https://msdn.microsoft.com/en-us/library/mt706196.aspx
 https://raw.githubusercontent.com/Azure/Azure-DataFactory/master/Samples/U-SQL%20Sample%20Input%20File/SearchLog.tsv
 
 U-SQL vs Spark SQL 
 https://stackoverflow.com/questions/35575080/azure-spark-sql-vs-u-sql
+
 case study 
 https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-process-data-lake-walkthrough
+
 # Azure Data Factory
 https://docs.microsoft.com/en-us/azure/data-factory/data-factory-azure-blob-connector
 https://docs.microsoft.com/en-us/azure/data-factory/data-factory-copy-activity-tutorial-using-azure-portal
@@ -193,29 +206,35 @@ http://www.radacad.com/wp-content/uploads/2016/05/SqlBits2016_RezaRad_ADFvsSSIS.
 http://www.jamesserra.com/archive/2017/03/azure-data-factory-and-ssis-compared/
                 
 # Azure SQL Data Warehouse
-https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-get-
-started-tutorial
-loading data https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-overview-load
+https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-get-started-tutorial
+
+loading data 
+https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-overview-load
 https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-load-with-data-factory
+
 MPP vs Map Reduce 
 https://www.flydata.com/blog/introduction-to-massively-parallel-processing/
+
 Sql server vs warehouse 
 https://key2consulting.com/comparison-of-azure-sql-database-to-azure-sql-data-warehouse/
 Lake vs warehouse
 https://www.blue-granite.com/blog/bid/402596/top-five-differences-between-data-lakes-and-data-warehouses
 https://azure.microsoft.com/en-in/resources/videos/build-2016-azure-data-lake-and-azure-data-warehouse-applying-modern-practices-to-your-app/
 # Machine Learning
-https://azure.microsoft.com/en-in/documentation/articles/machine-learning-
-create-experiment/
+https://azure.microsoft.com/en-in/documentation/articles/machine-learning-create-experiment/
 https://docs.microsoft.com/en-in/azure/machine-learning/machine-learning-publish-a-machine-learning-web-service
-PROCESS BLOB DATA https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-process-data-blob
+
+PROCESS BLOB DATA 
+https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-process-data-blob
 # HDInsight (Spark)
 https://azure.microsoft.com/en-in/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql/
+
 # Power BI
 # Streaming data
 # Event Hub
 https://azure.microsoft.com/en-in/documentation/articles/event-hubs-csharp-ephcs-getstarted/
 https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-dotnet-standard-getstarted-receive-eph
+
 csv:
 https://stackoverflow.com/questions/30868467/how-to-send-data-as-csv-on-eventhub-for-azure-stream-analytics/30870640
 Java: works with only java 8
@@ -226,16 +245,26 @@ https://www.codeproject.com/Articles/1173356/Azure-IoT-Hub-Tester  
 IOT Hub -> storage https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-store-data-in-azure-table-storageMicrosoft_Azure_IoT_Reference_Architecture.pdf 
 https://azure.microsoft.com/en-in/documentation/articles/iot-hub-csharp-csharp-getstarted/
 https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-java-java-getstarted 
+
 an IoT Hub is 9 to 53 times more expensive than an Event Hub
+
 default AMQP protocol, change to http
+
 works only with java 8
-configure rasberry pi https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-raspberry-pi-kit-node-lesson1-configure-your-device rasberry pi example
+configure rasberry pi https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-raspberry-pi-kit-node-lesson1-configure-your-device 
+
+rasberry pi example
+
 Device SDk
 https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-raspberry-pi-kit-node-get-started
+
 Service SDK
+
 Gateway SDK
 https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-gateway-kit-c-get-started
+
 kafka vs not hub https://blogs.msdn.microsoft.com/opensourcemsft/2015/08/08/choosing-between-azure-event-hub-and-kafka-what-you-need-to-know/
+
 # Kafka (preview)
 Stream Analytics
 https://www.codit.eu/blog/2015/01/azure-stream-analytics-getting-started/
@@ -254,38 +283,47 @@ GROUP BY Name
    Azure HDInsight (Storm, Spark streaming)
 #  Messaging
 #  Queue
-https://azure.microsoft.com/en-in/documentation/articles/storage-dotnet-how-to-
-use-queues/
+https://azure.microsoft.com/en-in/documentation/articles/storage-dotnet-how-to-use-queues/
   Service Bus Queue
 https://gist.github.com/rberrelleza/2221610
 https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-manage-with-ps
 https://azure.microsoft.com/en-in/documentation/articles/service-bus-dotnet-get-started-with-queues/
 # Service Bus Topic
-https://azure.microsoft.com/en-in/documentation/articles/service-bus-dotnet-how-
-to-use-topics-subscriptions/
+https://azure.microsoft.com/en-in/documentation/articles/service-bus-dotnet-how-to-use-topics-subscriptions/
              
 # Notification Hub
 Patterns
+
 Command Message( Queue)
 http://www.enterpriseintegrationpatterns.com/patterns/messaging/CommandMessage.html
+
 Request-Reply (Queue)
 http://www.enterpriseintegrationpatterns.com/patterns/messaging/RequestReply.html
+
 Event Message (Queue)
 http://www.enterpriseintegrationpatterns.com/patterns/messaging/EventMessage.html
 # Computation
 # Web App
 http://almirvuk.blogspot.in/2015/12/how-to-upload-web-site-to-azure-with.html
+
 Auto Scale:
 https://blogs.msdn.microsoft.com/devschool/2015/05/24/azure-how-to-auto-scale-your-web-apps-web-sites/
+
 deployment slots :
 https://azure.microsoft.com/en-in/documentation/articles/web-sites-staged-publishing/
+
 After a swap, the slot with previously staged app now has the previous production app. If the changes swapped into the production slot are not as you expected, you can perform the same swap immediately to get your "last known good site" back.
-Scale Up:
+
+# Scale Up:
 https://azure.microsoft.com/en-in/documentation/articles/web-sites-scale/
-Load Test https://www.visualstudio.com/en-us/docs/test/performance-testing/app-service-web-app-performance-test
+
+Load Test 
+https://www.visualstudio.com/en-us/docs/test/performance-testing/app-service-web-app-performance-test
+
 # CDN Cache
 https://azure.microsoft.com/en-us/documentation/articles/cdn-create-a-storage-account-with-cdn/
 http://<StorageAcountLabel>.blob.core.windows.net/<mycontainer>/myblob http://<endpointname>.azureedge.net/<mycontainer>/myblob
+
 # Redis Cache
 https://azure.microsoft.com/en-in/documentation/articles/cache-dotnet-how-to-use-azure-redis-cache/
 # Web Job
