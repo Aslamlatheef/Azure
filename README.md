@@ -116,7 +116,9 @@ http://blog.spotinst.com/2017/05/14/microsoft-azure-low-priority-vms/
 # Blob
 https://azure.microsoft.com/en-in/documentation/articles/storage-dotnet-how-to-use-blobs/
 https://docs.microsoft.com/en-us/azure/storage/storage-azure-cli
+
 Block (file upload) vs page- IAAS (random read,write) blob, append blob (Eg. logging, auditing)
+
 # SnapShot
 File
 smb protocol
@@ -134,20 +136,24 @@ blobs--azure-files--or-azure-data-disks
 shared disk https://stackoverflow.com/questions/19620645/shared-drive-between-azure-virtual-machines
 # Operational data
 # Table
-https://azure.microsoft.com/en-in/documentation/articles/storage-dotnet-how-to-use-
-tables/ https://github.com/azure/azure-storage-java
-   Sql Azure
+https://azure.microsoft.com/en-in/documentation/articles/storage-dotnet-how-to-use-tables/ 
+https://github.com/azure/azure-storage-java
+
+# Sql Azure
 https://azure.microsoft.com/en-in/documentation/articles/sql-database-get-started/
+
 # Cosmos
 https://docs.microsoft.com/en-us/azure/cosmos-db/multi-region-writers
+
 # DocumentDb
 https://russellyoung.net/2016/06/18/managing-documentdb-with-powershell/
 https://docs.microsoft.com/en-us/azure/documentdb/documentdb-manage-account-with-powershell
 https://docs.microsoft.com/en-in/azure/documentdb/documentdb-get-started
+
 # GraphDb
-https://blogs.msdn.microsoft.com/tsmatsuz/2017/07/04/azure-cosmos-db-gremlin-graph-
-tutorial/
+https://blogs.msdn.microsoft.com/tsmatsuz/2017/07/04/azure-cosmos-db-gremlin-graph-tutorial/
 https://docs.microsoft.com/en-us/azure/cosmos-db/create-graph-gremlin-console https://tinkerpop.apache.org/docs/current/reference/#gremlin-console
+
 # Azure Batch
 https://docs.microsoft.com/en-us/azure/batch/batch-account-create-portal
 https://docs.microsoft.com/en-us/azure/batch/batch-dotnet-get-started
@@ -169,6 +175,7 @@ USQL
 https://docs.microsoft.com/en-us/azure/data-lake-analytics/data-lake-analytics-u-sql-get-started
 https://msdn.microsoft.com/en-us/library/mt706196.aspx
 https://raw.githubusercontent.com/Azure/Azure-DataFactory/master/Samples/U-SQL%20Sample%20Input%20File/SearchLog.tsv
+
 U-SQL vs Spark SQL 
 https://stackoverflow.com/questions/35575080/azure-spark-sql-vs-u-sql
 case study 
@@ -180,7 +187,8 @@ https://docs.microsoft.com/en-us/azure/data-factory/data-factory-build-your-firs
 https://docs.microsoft.com/en-us/azure/data-factory/data-factory-build-your-first-pipeline-using-editor
 https://docs.microsoft.com/en-us/azure/data-factory/data-factory-copy-activity-tutorial-using-azure-portal
 http://www.winwire.com/wp-content/uploads/2017/02/Step-by-Step-Azure-Data-Factory-Tutorials-1.pdf
-Data Factory vs SSIS 
+
+# Data Factory vs SSIS 
 http://www.radacad.com/wp-content/uploads/2016/05/SqlBits2016_RezaRad_ADFvsSSIS.pdf
 http://www.jamesserra.com/archive/2017/03/azure-data-factory-and-ssis-compared/
                 
@@ -189,9 +197,12 @@ https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-get
 started-tutorial
 loading data https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-overview-load
 https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-load-with-data-factory
-MPP vs Map Reduce https://www.flydata.com/blog/introduction-to-massively-parallel-processing/
-Sql server vs warehouse https://key2consulting.com/comparison-of-azure-sql-database-to-azure-sql-data-warehouse/
-Lake vs warehouse https://www.blue-granite.com/blog/bid/402596/top-five-differences-between-data-lakes-and-data-warehouses
+MPP vs Map Reduce 
+https://www.flydata.com/blog/introduction-to-massively-parallel-processing/
+Sql server vs warehouse 
+https://key2consulting.com/comparison-of-azure-sql-database-to-azure-sql-data-warehouse/
+Lake vs warehouse
+https://www.blue-granite.com/blog/bid/402596/top-five-differences-between-data-lakes-and-data-warehouses
 https://azure.microsoft.com/en-in/resources/videos/build-2016-azure-data-lake-and-azure-data-warehouse-applying-modern-practices-to-your-app/
 # Machine Learning
 https://azure.microsoft.com/en-in/documentation/articles/machine-learning-
