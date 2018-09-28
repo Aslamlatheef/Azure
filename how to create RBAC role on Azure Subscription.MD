@@ -1,0 +1,115 @@
+# how to add user to RBAC role on your Subscription
+-----------------------------------------------------------------------------------------------------------------
+
+$subScope = "/subscriptions/(Subscirption)"
+
+New-AzureRmRoleAssignment -SignInName (userid) -RoleDefinitionName "Reader" `-Scope $subScope
+
+------------------------------------------------------------------------------------------------------------
+# Role Reference 
+-------------------------------------------------------------------------------------------------------------
+PS C:\Users\aslathee> Get-AzureRmRoleDefinition | FT Name, Description
+
+Name                                                 Description                                                                                       
+----                                                 -----------                                                                                       
+Avere Cluster Runtime Operator                       Avere cluster runtime role used by Avere clusters running in subscriptions, for the purpose of ...
+Azure Service Deploy Release Management Contributor  Contributor role for services deploying through Azure Service Deploy.                             
+CAL-Custom-Role-67b91599-1e50-49eb-8780-881e4f7ca44e Lets SAP Cloud Appliance Library application manage Network and Compute services, manage Resour...
+Dsms Role (deprecated)                               Custom role used by Dsms to perform operations. Can list and regnerate storage account keys.      
+Dsms Role (do not use)                               Custom role used by Dsms to perform operations. Can list and regnerate storage account keys.      
+ExpressRoute Administrator                           Can create, delete and manage ExpressRoutes                                                       
+GenevaWarmPathResourceContributor                    Can manage service bus and storage accounts.                                                      
+masterreader                                         Lets you view everything, but not make any changes.                                               
+Office DevOps                                        Custom access for developers to operations but not secrets.                                       
+AcrImageSigner                                       acr image signer                                                                                  
+AcrQuarantineReader                                  acr quarantine data reader                                                                        
+AcrQuarantineWriter                                  acr quarantine data writer                                                                        
+API Management Service Contributor                   Lets you manage API Management services, but not access to them.                                  
+API Management Service Operator Role                 Can manage service but not the APIs                                                               
+API Management Service Reader Role                   Read-only access to service and APIs                                                              
+Application Insights Component Contributor           Can manage Application Insights components                                                        
+Application Insights Snapshot Debugger               Gives user permission to use Application Insights Snapshot Debugger features                      
+Automation Job Operator                              Create and Manage Jobs using Automation Runbooks.                                                 
+Automation Operator                                  Automation Operators are able to start, stop, suspend, and resume jobs                            
+Automation Runbook Operator                          Read Runbook properties - to be able to create Jobs of the runbook.                               
+Azure Kubernetes Service Cluster Admin Role          List cluster admin credential action.                                                             
+Azure Kubernetes Service Cluster User Role           List cluster user credential action.                                                              
+Azure Stack Registration Owner                       Lets you manage Azure Stack registrations.                                                        
+Backup Contributor                                   Lets you manage backup service,but can't create vaults and give access to others                  
+Backup Operator                                      Lets you manage backup services, except removal of backup, vault creation and giving access to ...
+Backup Reader                                        Can view backup services, but can't make changes                                                  
+Billing Reader                                       Lets you read billing data                                                                        
+BizTalk Contributor                                  Lets you manage BizTalk services, but not access to them.                                         
+CDN Endpoint Contributor                             Can manage CDN endpoints, but can’t grant access to other users.                                  
+CDN Endpoint Reader                                  Can view CDN endpoints, but can’t make changes.                                                   
+CDN Profile Contributor                              Can manage CDN profiles and their endpoints, but can’t grant access to other users.               
+CDN Profile Reader                                   Can view CDN profiles and their endpoints, but can’t make changes.                                
+Classic Network Contributor                          Lets you manage classic networks, but not access to them.                                         
+Classic Storage Account Contributor                  Lets you manage classic storage accounts, but not access to them.                                 
+Classic Storage Account Key Operator Service Role    Classic Storage Account Key Operators are allowed to list and regenerate keys on Classic Storag...
+Classic Virtual Machine Contributor                  Lets you manage classic virtual machines, but not access to them, and not the virtual network o...
+ClearDB MySQL DB Contributor                         Lets you manage ClearDB MySQL databases, but not access to them.                                  
+Cognitive Services Contributor                       Lets you create, read, update, delete and manage keys of Cognitive Services.                      
+Cognitive Services User                              Lets you read and list keys of Cognitive Services.                                                
+Contributor                                          Lets you manage everything except access to resources.                                            
+Cosmos DB Account Reader Role                        Can read Azure Cosmos DB Accounts data                                                            
+Cost Management Contributor                          Can view costs and manage cost configuration (e.g. budgets, exports)                              
+Cost Management Reader                               Can view cost data and configuration (e.g. budgets, exports)                                      
+Data Box Contributor                                 Lets you manage everything under Data Box Service except giving access to others.                 
+Data Box Reader                                      Lets you manage Data Box Service except creating order or editing order details and giving acce...
+Data Factory Contributor                             Lets you manage data factories, but not access to them.                                           
+Data Lake Analytics Developer                        Lets you submit, monitor, and manage your own jobs but not create or delete Data Lake Analytics...
+Data Purger                                          Can purge analytics data                                                                          
+DevTest Labs User                                    Lets you connect, start, restart, and shutdown virtual machines in your Azure DevTest Labs.       
+DNS Zone Contributor                                 Lets you manage DNS zones and record sets in Azure DNS, but does not let you control who has ac...
+DocumentDB Account Contributor                       Lets you manage DocumentDB accounts, but not access to them.                                      
+HDInsight Domain Services Contributor                Can Read, Create, Modify and Delete Domain Services related operations needed for HDInsight Ent...
+Intelligent Systems Account Contributor              Lets you manage Intelligent Systems accounts, but not access to them.                             
+Key Vault Contributor                                Lets you manage key vaults, but not access to them.                                               
+Lab Creator                                          Lets you create, manage, delete your managed labs under your Azure Lab Accounts.                  
+Log Analytics Contributor                            Log Analytics Contributor can read all monitoring data and edit monitoring settings. Editing mo...
+Log Analytics Reader                                 Log Analytics Reader can view and search all monitoring data as well as and view monitoring set...
+Logic App Contributor                                Lets you manage logic app, but not access to them.                                                
+Logic App Operator                                   Lets you read, enable and disable logic app.                                                      
+Managed Application Operator Role                    Lets you read and perform actions on Managed Application resources                                
+Managed Applications Reader                          Lets you read resources in a managed app and request JIT access.                                  
+Managed Identity Contributor                         Create, Read, Update, and Delete User Assigned Identity                                           
+Managed Identity Operator                            Read and Assign User Assigned Identity                                                            
+Management Group Contributor                         Management Group Contributor Role                                                                 
+Management Group Reader                              Management Group Reader Role                                                                      
+Monitoring Contributor                               Can read all monitoring data and update monitoring settings.                                      
+Monitoring Metrics Publisher                         Enables publishing metrics against Azure resources                                                
+Monitoring Reader                                    Can read all monitoring data.                                                                     
+Network Contributor                                  Lets you manage networks, but not access to them.                                                 
+New Relic APM Account Contributor                    Lets you manage New Relic Application Performance Management accounts and applications, but not...
+Owner                                                Lets you manage everything, including access to resources.                                        
+PowerApps Administrator Test                         Lets you manage DNS zones and record sets in Azure DNS, but does not let you control who has ac...
+Reader                                               Lets you view everything, but not make any changes.                                               
+Reader and Data Access                               Lets you view everything but will not let you delete or create a storage account or contained r...
+Redis Cache Contributor                              Lets you manage Redis caches, but not access to them.                                             
+Resource Policy Contributor (Preview)                (Preview) Backfilled users from EA, with rights to create/modify resource policy, create suppor...
+Scheduler Job Collections Contributor                Lets you manage Scheduler job collections, but not access to them.                                
+Search Service Contributor                           Lets you manage Search services, but not access to them.                                          
+Security Admin                                       Security Admin Role                                                                               
+Security Manager                                     Lets you manage security components, security policies and virtual machines                       
+Security Reader                                      Security Reader Role                                                                              
+Site Recovery Contributor                            Lets you manage Site Recovery service except vault creation and role assignment                   
+Site Recovery Operator                               Lets you failover and failback but not perform other Site Recovery management operations          
+Site Recovery Reader                                 Lets you view Site Recovery status but not perform other management operations                    
+SQL DB Contributor                                   Lets you manage SQL databases, but not access to them. Also, you can't manage their security-re...
+SQL Security Manager                                 Lets you manage the security-related policies of SQL servers and databases, but not access to t...
+SQL Server Contributor                               Lets you manage SQL servers and databases, but not access to them, and not their security -rela...
+Storage Account Contributor                          Lets you manage storage accounts, but not access to them.                                         
+Storage Account Key Operator Service Role            Storage Account Key Operators are allowed to list and regenerate keys on Storage Accounts         
+Storage Blob Data Contributor (Preview)              Allows for read, write and delete access to Azure Storage blob containers and data                
+Storage Blob Data Reader (Preview)                   Allows for read access to Azure Storage blob containers and data                                  
+Storage Queue Data Contributor (Preview)             Allows for read, write, and delete access to Azure Storage queues and queue messages              
+Storage Queue Data Reader (Preview)                  Allows for read access to Azure Storage queues and queue messages                                 
+Support Request Contributor                          Lets you create and manage Support requests                                                       
+Traffic Manager Contributor                          Lets you manage Traffic Manager profiles, but does not let you control who has access to them.    
+User Access Administrator                            Lets you manage user access to Azure resources.                                                   
+Virtual Machine Administrator Login                  View Virtual Machines in the portal and login as administrator                                    
+Virtual Machine Contributor                          Lets you manage virtual machines, but not access to them, and not the virtual network or storag...
+Virtual Machine User Login                           View Virtual Machines in the portal and login as a regular user.                                  
+Web Plan Contributor                                 Lets you manage the web plans for websites, but not access to them.                               
+Website Contributor                                  Lets you manage websites (not web plans), but not access to them. 
