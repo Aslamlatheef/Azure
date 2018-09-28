@@ -5,6 +5,19 @@ $subScope = "/subscriptions/(Subscirption)"
 
 New-AzureRmRoleAssignment -SignInName (userid) -RoleDefinitionName "Reader" `-Scope $subScope
 
+----------------------------------------------------------------------------------------------------------------
+# How to Remove user from Subscription id
+
+ Remove-AzureRmRoleAssignment -SignInName (userid) -RoleDefinitionName "Reader" -Scope $subScope
+ 
+ -----------------------------------------------------------------------------------------------------------------
+# how add new RBAC user to Resoucre group
+
+New-AzureRmRoleAssignment -SignInName (userid) -RoleDefinitionName "Reader" -ResourceGroupName "rbac-tutorial-resource-group"
+
+# how Remove new RBAC user to Resoucre group
+Remove-AzureRmRoleAssignment -SignInName (userid) -RoleDefinitionName "Reader" -ResourceGroupName "rbac-tutorial-resource-group"
+
 ------------------------------------------------------------------------------------------------------------
 # Role Reference 
 -------------------------------------------------------------------------------------------------------------
